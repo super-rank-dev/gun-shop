@@ -1,0 +1,44 @@
+.container {
+    /* position: fixed; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    padding: 20px 40px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-family: 'Edwardian Script ITC';
+    font-size: 52px;
+}
+
+.logo img {
+    height: 70px;
+    margin: 0 8px 0 0;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav a {
+    color: #555;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+.nav a:hover {
+    color: #fff;
+}
+
+.nav a:active,
+.nav a:focus {
+    border-bottom: 2px solid #555;
+}

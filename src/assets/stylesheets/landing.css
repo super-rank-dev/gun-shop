@@ -1,0 +1,245 @@
+.home {
+    background-image: url('../images/home.jpg');
+    padding: 140px 140px 170px;
+    color: #fff;
+    font-family: 'Algerian';
+}
+
+.home .header {
+    font-size: 72px;
+    margin: 20px;
+}
+
+.home .content {
+    font-family: 'Algerian';
+    font-size: 52px;
+    font-style: italic;
+    margin: 20px;
+}
+
+.home .btn {
+    padding: 16px;
+    font-family: 'Impact';
+    font-size: 20px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    transform: skewX(-15deg);
+    transition: 0.2s;
+    margin: 20px;
+}
+
+.home .btn:hover {
+    background-color: rgb(170, 170, 170);
+}
+
+.home .btn:active {
+    background-color: #3d3d3d;
+}
+
+.speciality {
+    padding: 120px 120px 0px;
+    background-image: linear-gradient(to bottom, #eee, #fff);
+}
+
+.speciality .header {
+    font-family: 'Algerian';
+    font-size: 54px;
+    text-align: center;
+    padding: 0 0 72px;
+}
+
+.speciality .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.speciality .item {
+    text-align: center;
+    flex-basis: 0;
+    transform: skewX(-15deg);
+}
+
+.speciality .item img {
+    height: 240px;
+    transition: 0.2s;
+}
+
+.speciality .item img:hover {
+    opacity: 0.6;
+}
+
+.speciality .item img:active {
+    opacity: 0.8;
+}
+
+.speciality .item .caption {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.products {
+    padding: 120px 120px 120px;
+    background-image: linear-gradient(to bottom, #fff, #eee);
+}
+
+.products .header {
+    font-family: 'Algerian';
+    font-size: 54px;
+    text-align: center;
+    padding: 0 0 24px;
+}
+
+.products .action {
+    display: flex;
+    justify-content: space-around;
+}
+
+.products .action .btn {
+    background-color: #000;
+    color: #fff;
+    padding: 14px 30px;
+    border: none;
+    font-weight: bold;
+    transform: skewX(-15deg);
+    margin: 4px;
+    transition: 0.2s;
+}
+
+.products .action .btn:hover {
+    background-color: rgb(170, 170, 170);
+}
+
+.products .action .btn:active {
+    background-color: #3d3d3d;
+}
+
+.products .content {
+    display: flex;
+    transition: 0.4s;
+}
+
+.products .item {
+    text-align: center;
+    flex-basis: 0;
+    transform: skewX(-15deg);
+}
+
+.products .item img {
+    height: 140px;
+    transition: 0.2s;
+}
+
+.products .item img:hover {
+    opacity: 0.6;
+}
+
+.products .item img:active {
+    opacity: 0.8;
+}
+
+.products .item .caption {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.about {
+    background-image: url('../images/about.jpg');
+    background-attachment: fixed;
+    padding: 140px;
+    color: #fff;
+    text-align: center;
+}
+
+.about .header {
+    font-family: 'Algerian';
+    font-size: 54px;
+    margin: 20px;
+}
+
+.about .content {
+    font-style: italic;
+    font-size: 24px;
+    padding: 20px;
+}
+
+.gallery {
+    padding: 120px 120px 0px;
+    background-image: linear-gradient(to bottom, #eee, #fff);
+}
+
+.gallery .header {
+    font-family: 'Algerian';
+    font-size: 54px;
+    text-align: center;
+    padding: 0 0 72px;
+}
+
+.gallery .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery .item {
+    text-align: center;
+    flex-basis: 0;
+    transform: skewX(-15deg);
+}
+
+.gallery .item img {
+    height: 240px;
+    transition: 0.2s;
+}
+
+.gallery .item img:hover {
+    opacity: 0.6;
+}
+
+.gallery .item img:active {
+    opacity: 0.8;
+}
+
+.gallery .item .caption {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.videos {
+    padding: 120px 120px 0px;
+}
+
+.videos .header {
+    font-family: 'Algerian';
+    font-size: 54px;
+    text-align: center;
+    padding: 0 0 72px;
+}
+
+.videos .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.videos .item {
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+}
+
+.videos .item video {
+    width: 100%;
+    transition: 0.2s;
+}
+
+.videos .item video:hover {
+    opacity: 0.6;
+}
+
+.videos .item video:active {
+    opacity: 0.8;
+}
+
+.videos .item .caption {
+    font-size: 20px;
+    font-weight: bold;
+}
